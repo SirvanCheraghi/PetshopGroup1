@@ -1,0 +1,74 @@
+#hedTitlePic{
+    height: 150px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+aside {
+    max-width: 20%;
+}
+main {
+    display: inline;
+    max-width: 70px;
+    
+}
+
+hr {
+    display: block;
+    width: 100%;
+}
+
+article {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: antiquewhite;
+    background-color: aquamarine;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    border-radius: 5px;
+}
